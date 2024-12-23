@@ -7,7 +7,7 @@ This example implements a digital 4-bit sequential multiplier simulation on [Sim
 - 8-bit parallel load register (subcircuit)
 - 4-bit zero comparator
 - 8-bit adder (subcircuit)
-- FSM Finite State Machine as control block (script)
+- FSM Finite State Machine as control block (script) [readme file](/FSM/README.md)
 
 ![](assets/Multiplier.png)
 you can also see this [tutorial](https://youtu.be/PAcU9CNJh7A?si=TVzpL2JlhtzKox_8) (spanish).
