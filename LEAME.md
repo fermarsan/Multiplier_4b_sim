@@ -9,4 +9,6 @@ Este ejemplo implementa una simulación de multiplicador secuencial digital de 4
 - Sumador de 8 bits (subcircuito)
 - FSM Máquina de estados finitos como bloque de control (script)
 
+![](assets/Multiplier.png)
+
 Este se hace como ejemplo/plantilla para hacer una simulación digital similar en _SimulIDE_.

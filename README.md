@@ -9,4 +9,6 @@ This example implements a digital 4-bit sequential multiplier simulation on [Sim
 - 8-bit adder (subcircuit)
 - FSM Finite State Machine as control block (script)
 
+![](assets/Multiplier.png)
+
 This is done as example/template for doing similar digital simulation on _SimulIDE_
