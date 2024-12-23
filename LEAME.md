@@ -10,5 +10,6 @@ Este ejemplo implementa una simulación de multiplicador secuencial digital de 4
 - FSM Máquina de estados finitos como bloque de control (script)
 
 ![](assets/Multiplier.png)
+Pueden seguir el siguiente [tutorial](https://youtu.be/PAcU9CNJh7A?si=TVzpL2JlhtzKox_8).
 
 Este se hace como ejemplo/plantilla para hacer una simulación digital similar en _SimulIDE_.
