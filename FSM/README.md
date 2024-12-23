@@ -146,7 +146,26 @@ and the `Next State Logic`:
 		state = state1;
 	else if(input[B] == 1)
 		state = state2;
-``` 				
+``` 
+
+## This FSM example
+The implemented Finite State Machine is a control block for a 4-bit sequential multiplier which corresponds to this state diagram:
+
+```mermaid
+flowchart TD
+done((DONE))
+done --Start == 0--> done
+done --Start == 1--> init((INIT))
+init --> wait1((WAIT_1))
+wait1 --> comp((COMP))
+comp --Z == 1--> done
+comp --LSB_A == 1, Z == 0--> add((ADD))
+comp --LSB_A == 0, Z == 0--> shift((SHIFT))
+add --> shift
+shift --> wait2((WAIT_2))
+wait2 --> comp
+```
+
 
 
 
