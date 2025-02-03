@@ -13,3 +13,10 @@ This example implements a digital 4-bit sequential multiplier simulation on [Sim
 you can also see this [tutorial](https://youtu.be/PAcU9CNJh7A?si=TVzpL2JlhtzKox_8) (spanish).
 
 This is done as example/template for doing similar digital simulation on _SimulIDE_
+
+
+## Usage 
+You have to copy all the component's folders inside a one in the user data folder, for instance `~/User_data/test`and associate it in Simulide.
+You can see how to do this in the official SimulIDE's Tutorials:
+[User data folder SimulIDE 1.1.0](https://www.youtube.com/watch?v=pAU7fdUWCqs)
+[Crear Componentes SimulIDE 1.1.0 ](https://www.youtube.com/watch?v=LBknR6y5Qho) (Spanish)
