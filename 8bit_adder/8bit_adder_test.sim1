@@ -1,0 +1,105 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="ENCODER_HEX-20" mainComp="false" Show_id="true" Show_Val="false" Pos="-196,-180" rotation="0" hflip="1" vflip="1" label="ENCODER_HEX-20" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="ENCODER_HEX-24" mainComp="false" Show_id="true" Show_Val="false" Pos="-196,-268" rotation="0" hflip="1" vflip="1" label="ENCODER_HEX-24" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="ENCODER_HEX-25" mainComp="false" Show_id="true" Show_Val="false" Pos="-196,4" rotation="0" hflip="1" vflip="1" label="ENCODER_HEX-25" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="ENCODER_HEX-26" mainComp="false" Show_id="true" Show_Val="false" Pos="-196,-84" rotation="0" hflip="1" vflip="1" label="ENCODER_HEX-26" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="MC14495-27" mainComp="false" Show_id="true" Show_Val="false" Pos="76,-232" rotation="0" hflip="1" vflip="1" label="MC14495-27" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-28" mainComp="false" Show_id="false" Show_Val="false" Pos="160,-200" rotation="0" hflip="1" vflip="1" label="Seven Segment-28" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="1" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Ground" CircId="Ground-29" mainComp="false" Show_id="false" Show_Val="false" Pos="168,-140" rotation="0" hflip="1" vflip="1" label="Ground-29" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-30" mainComp="false" Show_id="false" Show_Val="false" Pos="160,-80" rotation="0" hflip="1" vflip="1" label="Seven Segment-30" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="1" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Subcircuit" CircId="MC14495-31" mainComp="false" Show_id="true" Show_Val="false" Pos="76,-112" rotation="0" hflip="1" vflip="1" label="MC14495-31" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Ground" CircId="Ground-32" mainComp="false" Show_id="false" Show_Val="false" Pos="168,-20" rotation="0" hflip="1" vflip="1" label="Ground-32" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="8bit_adder-33" mainComp="false" Show_id="true" Show_Val="false" Pos="-24,-180" rotation="0" hflip="1" vflip="1" label="8bit_adder-33" idLabPos="-12.3649,164.522" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="Connector-101" startpinid="Seven Segment-28-pin_a" endpinid="MC14495-27-a" pointList="136,-224,116,-224" />
+
+<item itemtype="Connector" uid="Connector-102" startpinid="Seven Segment-28-pin_b" endpinid="MC14495-27-b" pointList="136,-216,116,-216" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Seven Segment-28-pin_c" endpinid="MC14495-27-c" pointList="136,-208,116,-208" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="Seven Segment-28-pin_d" endpinid="MC14495-27-d" pointList="136,-200,116,-200" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="Seven Segment-28-pin_e" endpinid="MC14495-27-e" pointList="136,-192,116,-192" />
+
+<item itemtype="Connector" uid="Connector-106" startpinid="Seven Segment-28-pin_f" endpinid="MC14495-27-f" pointList="136,-184,116,-184" />
+
+<item itemtype="Connector" uid="Connector-107" startpinid="Seven Segment-28-pin_g" endpinid="MC14495-27-g" pointList="136,-176,116,-176" />
+
+<item itemtype="Connector" uid="Connector-108" startpinid="Ground-29-Gnd" endpinid="Seven Segment-28-pin_commona" pointList="168,-156,168,-168" />
+
+<item itemtype="Connector" uid="Connector-115" startpinid="Seven Segment-30-pin_g" endpinid="MC14495-31-g" pointList="136,-56,116,-56" />
+
+<item itemtype="Connector" uid="Connector-116" startpinid="Seven Segment-30-pin_d" endpinid="MC14495-31-d" pointList="136,-80,116,-80" />
+
+<item itemtype="Connector" uid="Connector-117" startpinid="Seven Segment-30-pin_c" endpinid="MC14495-31-c" pointList="136,-88,116,-88" />
+
+<item itemtype="Connector" uid="Connector-118" startpinid="Ground-32-Gnd" endpinid="Seven Segment-30-pin_commona" pointList="168,-36,168,-48" />
+
+<item itemtype="Connector" uid="Connector-120" startpinid="Seven Segment-30-pin_e" endpinid="MC14495-31-e" pointList="136,-72,116,-72" />
+
+<item itemtype="Connector" uid="Connector-121" startpinid="Seven Segment-30-pin_f" endpinid="MC14495-31-f" pointList="136,-64,116,-64" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="Seven Segment-30-pin_a" endpinid="MC14495-31-a" pointList="136,-104,116,-104" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="Seven Segment-30-pin_b" endpinid="MC14495-31-b" pointList="136,-96,116,-96" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="8bit_adder-33-B7" endpinid="ENCODER_HEX-25-8" pointList="-32,-44,-44,-44,-44,36,-116,36" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="ENCODER_HEX-25-4" endpinid="8bit_adder-33-B6" pointList="-116,28,-52,28,-52,-52,-32,-52" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="8bit_adder-33-B5" endpinid="ENCODER_HEX-25-2" pointList="-32,-60,-60,-60,-60,20,-116,20" />
+
+<item itemtype="Connector" uid="Connector-133" startpinid="ENCODER_HEX-25-1" endpinid="8bit_adder-33-B4" pointList="-116,12,-68,12,-68,-68,-32,-68" />
+
+<item itemtype="Connector" uid="Connector-134" startpinid="8bit_adder-33-B3" endpinid="ENCODER_HEX-26-8" pointList="-32,-76,-76,-76,-76,-52,-116,-52" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="ENCODER_HEX-26-4" endpinid="8bit_adder-33-B2" pointList="-116,-60,-84,-60,-84,-84,-32,-84" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="8bit_adder-33-B1" endpinid="ENCODER_HEX-26-2" pointList="-32,-92,-92,-92,-92,-68,-116,-68" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="ENCODER_HEX-26-1" endpinid="8bit_adder-33-B0" pointList="-116,-76,-100,-76,-100,-100,-32,-100" />
+
+<item itemtype="Connector" uid="Connector-139" startpinid="8bit_adder-33-A0" endpinid="ENCODER_HEX-24-1" pointList="-32,-172,-44,-172,-44,-260,-116,-260" />
+
+<item itemtype="Connector" uid="Connector-140" startpinid="ENCODER_HEX-24-2" endpinid="8bit_adder-33-A1" pointList="-116,-252,-52,-252,-52,-164,-32,-164" />
+
+<item itemtype="Connector" uid="Connector-141" startpinid="8bit_adder-33-A2" endpinid="ENCODER_HEX-24-4" pointList="-32,-156,-60,-156,-60,-244,-116,-244" />
+
+<item itemtype="Connector" uid="Connector-142" startpinid="ENCODER_HEX-24-8" endpinid="8bit_adder-33-A3" pointList="-116,-236,-68,-236,-68,-148,-32,-148" />
+
+<item itemtype="Connector" uid="Connector-143" startpinid="8bit_adder-33-A4" endpinid="ENCODER_HEX-20-1" pointList="-32,-140,-76,-140,-76,-172,-116,-172" />
+
+<item itemtype="Connector" uid="Connector-144" startpinid="ENCODER_HEX-20-2" endpinid="8bit_adder-33-A5" pointList="-116,-164,-84,-164,-84,-132,-32,-132" />
+
+<item itemtype="Connector" uid="Connector-145" startpinid="8bit_adder-33-A6" endpinid="ENCODER_HEX-20-4" pointList="-32,-124,-92,-124,-92,-156,-116,-156" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="ENCODER_HEX-20-8" endpinid="8bit_adder-33-A7" pointList="-116,-148,-100,-148,-100,-116,-32,-116" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="8bit_adder-33-S7" endpinid="MC14495-31-D" pointList="16,-80,68,-80" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="8bit_adder-33-S6" endpinid="MC14495-31-C" pointList="16,-88,68,-88" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="MC14495-31-B" endpinid="8bit_adder-33-S5" pointList="68,-96,16,-96" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="8bit_adder-33-S4" endpinid="MC14495-31-A" pointList="16,-104,68,-104" />
+
+<item itemtype="Connector" uid="Connector-151" startpinid="8bit_adder-33-S0" endpinid="MC14495-27-A" pointList="16,-136,28,-136,28,-224,68,-224" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="MC14495-27-B" endpinid="8bit_adder-33-S1" pointList="68,-216,36,-216,36,-128,16,-128" />
+
+<item itemtype="Connector" uid="Connector-153" startpinid="8bit_adder-33-S2" endpinid="MC14495-27-C" pointList="16,-120,44,-120,44,-208,68,-208" />
+
+<item itemtype="Connector" uid="Connector-154" startpinid="MC14495-27-D" endpinid="8bit_adder-33-S3" pointList="68,-200,52,-200,52,-112,16,-112" />
+
+</circuit>
